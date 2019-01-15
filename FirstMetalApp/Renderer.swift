@@ -21,6 +21,11 @@ enum RendererError: Error {
     case badVertexDescriptor
 }
 
+// MetalKit
+// here make the MTKView conforms to MTKViewDelegate. Swift Protocal(interface)
+// draw
+// MTKView
+
 class Renderer: NSObject, MTKViewDelegate {
 
     public let device: MTLDevice
